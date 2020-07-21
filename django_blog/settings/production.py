@@ -1,7 +1,7 @@
 from .base import *
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['paladindev.herokuapp.com']
 
