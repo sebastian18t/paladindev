@@ -4,7 +4,7 @@ from .base import *
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 DATABASES = {
     'default': {

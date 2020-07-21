@@ -3,17 +3,16 @@ from .base import *
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['paladindev.herokuapp.com']
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd541kl6t87sn0d',
-        'USER': 'cblkavczzpvadw',
-        'PASSWORD': 'b543a4a8c520b543f989b614509c70cc8e2608bd95cecd94c2044fb803f8b617',
-        'HOST': 'ec2-54-236-169-55.compute-1.amazonaws.com',
+        'NAME': 'den0jo98ega41i',
+        'USER': 'eckvshfxabsmqf',
+        'PASSWORD': '2ffb20468cec7332c78b064dc7a0130b589027d06967b9ceeedeb2cbb452725d',
+        'HOST': 'ec2-18-211-48-247.compute-1.amazonaws.com',
         'PORT': 5432,
-        
     }
 }
 
